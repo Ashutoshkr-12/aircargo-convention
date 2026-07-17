@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight, PlaneTakeoff } from "lucide-react";
 import { partners } from "@/lib/data";

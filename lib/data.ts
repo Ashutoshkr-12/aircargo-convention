@@ -242,7 +242,7 @@ export const speakers: Speaker[] = [
     day: 1,
     time: "08:30",
     sessionTitle: "Opening Keynote — State of Global Air Freight",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "DK",
@@ -253,7 +253,7 @@ export const speakers: Speaker[] = [
     day: 1,
     time: "10:00",
     sessionTitle: "Widebody Capacity Planning for Peak Season",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "RS",
@@ -264,7 +264,7 @@ export const speakers: Speaker[] = [
     day: 1,
     time: "11:15",
     sessionTitle: "Cool Chain: Pharma & Perishables at Altitude",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "TO",
@@ -275,7 +275,7 @@ export const speakers: Speaker[] = [
     day: 1,
     time: "13:30",
     sessionTitle: "SAF Adoption Across Freighter Fleets",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "JL",
@@ -286,7 +286,7 @@ export const speakers: Speaker[] = [
     day: 2,
     time: "10:30",
     sessionTitle: "Forwarder Roundtable: Capacity Crunch 2027",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "AH",
@@ -297,7 +297,7 @@ export const speakers: Speaker[] = [
     day: 2,
     time: "09:00",
     sessionTitle: "Digital Booking & the e-AWB Standard",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "PV",
@@ -308,7 +308,7 @@ export const speakers: Speaker[] = [
     day: 2,
     time: "14:00",
     sessionTitle: "Keynote — Autonomous Ramps, Real Timelines",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "SC",
@@ -319,7 +319,7 @@ export const speakers: Speaker[] = [
     day: 3,
     time: "15:00",
     sessionTitle: "Alliance Network Roundtable: Building Trade Lanes",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "EN",
@@ -330,7 +330,7 @@ export const speakers: Speaker[] = [
     day: 3,
     time: "08:30",
     sessionTitle: "Keynote — Customs, Compliance & the New Trade Corridors",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "RK",
@@ -341,7 +341,7 @@ export const speakers: Speaker[] = [
     day: 4,
     time: "08:30",
     sessionTitle: "Keynote — AI on the Ramp: Cargo Ops in Real Time",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "LF",
@@ -352,7 +352,7 @@ export const speakers: Speaker[] = [
     day: 4,
     time: "11:15",
     sessionTitle: "Sustainable Fuels Roadmap to 2030",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
   {
     initials: "KA",
@@ -363,7 +363,7 @@ export const speakers: Speaker[] = [
     day: 4,
     time: "12:30",
     sessionTitle: "Closing Keynote — Cargo's Next Decade",
-    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
+    photo: "https://i.scdn.co/image/ab67616d00001e02a3c7ce0a59112645ac342766"
   },
 ];
 
