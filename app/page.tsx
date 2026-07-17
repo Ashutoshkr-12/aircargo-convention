@@ -17,8 +17,8 @@ export default function Home() {
       <Speakers />
       <ProgrammeSchedule />
       <Gallery />
-      <Sponsors />
       <Register />
+      <Sponsors />
       <SiteFooter />
     </main>
   );

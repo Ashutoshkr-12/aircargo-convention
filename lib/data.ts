@@ -230,13 +230,7 @@ export type Speaker = {
   photo: string;
 };
 
-// Portrait avatars are generated on the fly from each speaker's initials —
-// no third-party stock photography, easy to swap for real headshots later.
-function avatar(initials: string, bg: string) {
-  return `https://ui-avatars.com/api/?name=${encodeURIComponent(
-    initials
-  )}&background=${bg}&color=ffb238&size=256&bold=true&font-size=0.38`;
-}
+
 
 export const speakers: Speaker[] = [
   {
@@ -248,7 +242,7 @@ export const speakers: Speaker[] = [
     day: 1,
     time: "08:30",
     sessionTitle: "Opening Keynote — State of Global Air Freight",
-    photo: avatar("MA", "0a1628"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "DK",
@@ -259,7 +253,7 @@ export const speakers: Speaker[] = [
     day: 1,
     time: "10:00",
     sessionTitle: "Widebody Capacity Planning for Peak Season",
-    photo: avatar("DK", "12233f"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "RS",
@@ -270,7 +264,7 @@ export const speakers: Speaker[] = [
     day: 1,
     time: "11:15",
     sessionTitle: "Cool Chain: Pharma & Perishables at Altitude",
-    photo: avatar("RS", "1b3157"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "TO",
@@ -281,7 +275,7 @@ export const speakers: Speaker[] = [
     day: 1,
     time: "13:30",
     sessionTitle: "SAF Adoption Across Freighter Fleets",
-    photo: avatar("TO", "0a1628"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "JL",
@@ -292,7 +286,7 @@ export const speakers: Speaker[] = [
     day: 2,
     time: "10:30",
     sessionTitle: "Forwarder Roundtable: Capacity Crunch 2027",
-    photo: avatar("JL", "12233f"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "AH",
@@ -303,7 +297,7 @@ export const speakers: Speaker[] = [
     day: 2,
     time: "09:00",
     sessionTitle: "Digital Booking & the e-AWB Standard",
-    photo: avatar("AH", "1b3157"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "PV",
@@ -314,7 +308,7 @@ export const speakers: Speaker[] = [
     day: 2,
     time: "14:00",
     sessionTitle: "Keynote — Autonomous Ramps, Real Timelines",
-    photo: avatar("PV", "0a1628"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "SC",
@@ -325,7 +319,7 @@ export const speakers: Speaker[] = [
     day: 3,
     time: "15:00",
     sessionTitle: "Alliance Network Roundtable: Building Trade Lanes",
-    photo: avatar("SC", "12233f"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "EN",
@@ -336,7 +330,7 @@ export const speakers: Speaker[] = [
     day: 3,
     time: "08:30",
     sessionTitle: "Keynote — Customs, Compliance & the New Trade Corridors",
-    photo: avatar("EN", "1b3157"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "RK",
@@ -347,7 +341,7 @@ export const speakers: Speaker[] = [
     day: 4,
     time: "08:30",
     sessionTitle: "Keynote — AI on the Ramp: Cargo Ops in Real Time",
-    photo: avatar("RK", "0a1628"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "LF",
@@ -358,7 +352,7 @@ export const speakers: Speaker[] = [
     day: 4,
     time: "11:15",
     sessionTitle: "Sustainable Fuels Roadmap to 2030",
-    photo: avatar("LF", "12233f"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     initials: "KA",
@@ -369,25 +363,25 @@ export const speakers: Speaker[] = [
     day: 4,
     time: "12:30",
     sessionTitle: "Closing Keynote — Cargo's Next Decade",
-    photo: avatar("KA", "1b3157"),
+    photo: "https://images.unsplash.com/photo-1725028748781-7adb1df9a943?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D",
   },
 ];
 
 export type Partner = {
   name: string;
-  short: string; // short mark shown inside the logo badge
-  accent: string; // CSS color for the logo mark
+  partner: string; // short mark shown inside the logo badge
+  photo: string; // CSS color for the logo mark
 };
 
 export const partners: Partner[] = [
-  { name: "Nimbus Air Cargo", short: "NAC", accent: "#ffb238" },
-  { name: "Meridian Freight Group", short: "MFG", accent: "#7dd3fc" },
-  { name: "Vertex Logistics", short: "VTX", accent: "#ffb238" },
-  { name: "Polaris Air", short: "PLA", accent: "#7dd3fc" },
-  { name: "Orbital Handling", short: "ORB", accent: "#ffb238" },
-  { name: "SkyLoop Robotics", short: "SKL", accent: "#7dd3fc" },
-  { name: "Changi Cargo Terminal", short: "CCT", accent: "#ffb238" },
-  { name: "Aerova Insurance", short: "AIN", accent: "#7dd3fc" },
+  { name: "Network Tea Partner", partner: "Powered By", photo:" https://res.cloudinary.com/vistaprint/images/f_auto,q_auto/v1706191816/ideas-and-advice-prod/blogadmin/Screenshot-2024-01-25-at-15.09.28/Screenshot-2024-01-25-at-15.09.28.png?_i=AA" },
+  { name: "SkyDriver", partner: "Title partner", photo:" https://res.cloudinary.com/vistaprint/images/f_auto,q_auto/v1706191816/ideas-and-advice-prod/blogadmin/Screenshot-2024-01-25-at-15.09.28/Screenshot-2024-01-25-at-15.09.28.png?_i=AA" },
+  { name: "Cately cargo", partner: "Gold Partner", photo:" https://res.cloudinary.com/vistaprint/images/f_auto,q_auto/v1706191816/ideas-and-advice-prod/blogadmin/Screenshot-2024-01-25-at-15.09.28/Screenshot-2024-01-25-at-15.09.28.png?_i=AA" },
+  { name: "shyways group", partner: "Table branding partner", photo:" https://res.cloudinary.com/vistaprint/images/f_auto,q_auto/v1706191816/ideas-and-advice-prod/blogadmin/Screenshot-2024-01-25-at-15.09.28/Screenshot-2024-01-25-at-15.09.28.png?_i=AA" },
+  { name: "Orbital Handling", partner: "Network tea partner", photo:" https://res.cloudinary.com/vistaprint/images/f_auto,q_auto/v1706191816/ideas-and-advice-prod/blogadmin/Screenshot-2024-01-25-at-15.09.28/Screenshot-2024-01-25-at-15.09.28.png?_i=AA" },
+  { name: "SkyLoop Robotics", partner: "Patner", photo:" https://res.cloudinary.com/vistaprint/images/f_auto,q_auto/v1706191816/ideas-and-advice-prod/blogadmin/Screenshot-2024-01-25-at-15.09.28/Screenshot-2024-01-25-at-15.09.28.png?_i=AA" },
+  { name: "Changi Cargo Terminal", partner: "Partner", photo:" https://res.cloudinary.com/vistaprint/images/f_auto,q_auto/v1706191816/ideas-and-advice-prod/blogadmin/Screenshot-2024-01-25-at-15.09.28/Screenshot-2024-01-25-at-15.09.28.png?_i=AA" },
+  { name: "Aerova Insurance", partner: "Partner", photo:" https://res.cloudinary.com/vistaprint/images/f_auto,q_auto/v1706191816/ideas-and-advice-prod/blogadmin/Screenshot-2024-01-25-at-15.09.28/Screenshot-2024-01-25-at-15.09.28.png?_i=AA" },
 ];
 
 export type Sponsor = {

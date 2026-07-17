@@ -20,12 +20,8 @@ export function Gallery() {
         {/* Header */}
 
         <div className="mb-16 max-w-3xl">
-          <Badge variant="outline" className="mb-5">
-            Gallery
-          </Badge>
-
           <h2 className="font-display text-4xl font-semibold tracking-tight text-[var(--ink)] sm:text-5xl">
-            Moments that shaped AEROVA
+            GLIMPSES FROM PAST EDITIONS
           </h2>
 
           <p className="mt-5 text-lg leading-relaxed text-[var(--ash)]">

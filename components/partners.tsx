@@ -3,12 +3,13 @@
 import { useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight, PlaneTakeoff } from "lucide-react";
 import { partners } from "@/lib/data";
+import Image from "next/image";
 
 export function Partners() {
   const trackRef = useRef<HTMLDivElement>(null);
   const animationRef = useRef<number | null>(null);
 
-  const speed = 0.6;
+  const speed = 1;
 
   const startAnimation = () => {
     if (animationRef.current) {
@@ -41,7 +42,6 @@ export function Partners() {
 
   useEffect(() => {
     startAnimation();
-
     return () => stopAnimation();
   }, []);
 
@@ -125,27 +125,32 @@ export function Partners() {
           className="flex cursor-grab gap-4 overflow-x-auto scroll-smooth px-1 py-1 [-ms-overflow-style:none] [scrollbar-width:none] active:cursor-grabbing [&::-webkit-scrollbar]:hidden"
         >
           {[...partners, ...partners].map((partner, index) => (
-            <div
-              key={`${partner.short}-${index}`}
-              className="flex shrink-0 select-none items-center gap-3 rounded-2xl border border-black/5 bg-white px-5 py-4 shadow-sm transition hover:-translate-y-1 hover:border-black/10 hover:shadow-md"
-            >
-              <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-[var(--ink)]">
-                <PlaneTakeoff
-                  className="size-4"
-                  style={{ color: partner.accent }}
-                  strokeWidth={2.2}
-                />
-              </span>
+           <div
+  key={`${partner.partner}-${index}`}
+  className="flex h-52 w-56 shrink-0 select-none flex-col items-center justify-center rounded-2xl border border-black/5 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-black/10 hover:shadow-md"
+>
+              
 
-              <div className="leading-tight">
-                <p className="font-display text-sm font-semibold tracking-tight text-[var(--ink)]">
-                  {partner.short}
-                </p>
+             <div className="flex flex-col items-center justify-center gap-4">
+  <span className="flex h-20 w-20 items-center justify-center rounded-xl border">
+    <img
+    src={partner.photo}      
+    alt="img"
+    className=""
+      // strokeWidth={2.2}
+    />
+  </span>
 
-                <p className="whitespace-nowrap font-mono text-[10px] uppercase tracking-[0.1em] text-[var(--ash)]">
-                  {partner.name}
-                </p>
-              </div>
+  <div className="space-y-1">
+    <p className="font-display text-lg font-semibold text-[var(--ink)]">
+      {partner.name}
+    </p>
+
+    <p className="text-xs uppercase tracking-widest text-[var(--ash)]">
+      {partner.partner}
+    </p>
+  </div>
+</div>
             </div>
           ))}
         </div>
