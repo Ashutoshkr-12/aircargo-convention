@@ -1,11 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
-import {
-  FreighterIllustration,
-  ContainerLoadIllustration,
-  ControlTowerIllustration,
-} from "@/components/illustrations";
 import Image from "next/image";
 
 export function Overview() {
@@ -31,7 +26,7 @@ export function Overview() {
             live dashboard of freighter space, transfer windows and
             cool-chain capacity across every carrier on the floor.
           </p>
-          <Button className="mt-8" variant="dark">
+          <Button className="mt-8">
             Reserve your seat <ArrowUpRight />
           </Button>
         </div>
